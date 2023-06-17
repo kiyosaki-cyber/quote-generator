@@ -1,12 +1,13 @@
 body{
     background-color: rgb(9, 9, 9);
-}
-#div{
     background-image: url(../img/tea-watch-books-candle-wallpaper-preview.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:75vw;
     padding: 50px;
+}
+#div{
+    
 }
 h1{
     color: whitesmoke;
