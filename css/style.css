@@ -29,7 +29,6 @@ button{
     text-align: center;
     color: whitesmoke;
     font-size: 1.125rem;
-    margin-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
