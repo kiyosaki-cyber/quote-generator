@@ -24,13 +24,27 @@ h1{
     border-radius: 5px;
     padding: 20px;
 }
+/* #backquote{
+    width: fit-content;
+    height: fit-content;
+    color: whitesmoke;
+    background-color: rgba(9, 9, 9, 0.62);
+    font-size: 2rem;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 20px
+
+} */
 button{
     text-align: center;
     color: whitesmoke;
     font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #newquote{
-    position: absolute;
+    position: absolute; 
     margin-left: 25px;
     padding: 10px;
     border-radius: 5px;
@@ -39,11 +53,12 @@ button{
     margin-right: 40px;
 
 }
-/* #back{
-    margin-left: 40px;
+#back{
+    position: absolute;
+    margin-left: 300px;
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color:red;
+    background-color:purple;
 
-} */
+} 
