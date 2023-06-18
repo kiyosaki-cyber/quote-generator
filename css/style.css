@@ -1,7 +1,6 @@
 body{
     height: 100vh;
     background-color: rgb(9, 9, 9);
-    background-image: url(../img/tea-watch-books-candle-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 2px;
@@ -24,17 +23,7 @@ h1{
     border-radius: 5px;
     padding: 20px;
 }
-/* #backquote{
-    width: fit-content;
-    height: fit-content;
-    color: whitesmoke;
-    background-color: rgba(9, 9, 9, 0.62);
-    font-size: 2rem;
-    margin-left: 40px;
-    border-radius: 5px;
-    padding: 20px
 
-} */
 button{
     text-align: center;
     color: whitesmoke;
@@ -65,15 +54,18 @@ button{
 @media screen and (min-width: 481px){
    body{
     rotate: 90deg;
+    background-image: url(../img/tea-watch-books-candle-wallpaper-preview~2.jpg); 
    }
 }
  @media screen and (min-width: 1024px){
     body{
      rotate: 360deg;
+    background-image: url(../img/tea-watch-books-candle-wallpaper-preview.jpg);
     }
  }
  @media screen and (min-width: 1200px){
     body{
      rotate: 360deg;
+    background-image: url(../img/tea-watch-books-candle-wallpaper-preview.jpg);
     }
  }
